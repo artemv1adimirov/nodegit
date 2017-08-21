@@ -3,4 +3,4 @@
 export builddir_name ?= ./build/vendor/.
 .PHONY: all
 all:
-	$(MAKE) -C .. libssh2 zlib libgit2
+	$(MAKE) -C .. zlib libssh2 libgit2
