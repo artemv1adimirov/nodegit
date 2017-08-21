@@ -1,11 +1,11 @@
 /build/
 /coverage/
-/dist/
-/include/
-/lib/enums.js
-/lib/nodegit.js
+#/dist/
+#/include/
+#/lib/enums.js
+#/lib/nodegit.js
 /node_modules/
-/src/
+#/src/
 /test/coverage/
 /test/home/
 /test/repos/
