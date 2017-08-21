@@ -1,7 +1,7 @@
 {
   "name": "nodegit",
   "description": "Node.js libgit2 asynchronous native bindings",
-  "version": "0.20.2",
+  "version": "0.20.1",
   "homepage": "http://nodegit.org",
   "keywords": [
     "libgit2",
@@ -21,6 +21,7 @@
       "email": "maxkorp@8bytealchemy.com"
     }
   ],
+  "main": "dist/nodegit.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/artemv1adimirov/nodegit.git"
@@ -57,5 +58,10 @@
   "vendorDependencies": {
     "libssh2": "1.7.0",
     "http_parser": "2.5.0"
+  },
+  "binary": {
+    "module_name": "nodegit",
+    "module_path": "./build/Release/",
+    "host": "https://nodegit.s3.amazonaws.com/nodegit/nodegit/"
   }
 }
